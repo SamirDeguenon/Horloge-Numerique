@@ -6,7 +6,7 @@
 // === PINS TM1637 ===
 #define CLK D1  // CLK du module
 #define DIO D2  // DIO du module
-#define BUZZER D5
+#define BUZZER D5 // Broche du buzzer
 
 TM1637Display display(CLK, DIO);
 
